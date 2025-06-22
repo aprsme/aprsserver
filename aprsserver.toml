@@ -1,0 +1,11 @@
+server_name = "aprsserver-rust"
+user_port = 14580
+server_port = 10152
+allow_callsigns = ["N0CALL", "TEST"]
+deny_callsigns = ["BADGUY"]
+
+[uplink]
+host = "rotate.aprs2.net"
+port = 14580
+callsign = "N0CALL"
+passcode = 12345 
